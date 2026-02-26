@@ -1,4 +1,4 @@
-import { WeatherData } from "../../../WeatherProject/types"
+import { WeatherData } from "WeatherProject/types"
 
 export type Props = {
   weather: WeatherData
