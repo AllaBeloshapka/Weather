@@ -1,4 +1,4 @@
-import { WeatherData } from "lessons/WeatherProject/types";
+import { WeatherData } from "../../WeatherProject/types";
 
 export interface WeatherInitialState {
   isLoading: any;
