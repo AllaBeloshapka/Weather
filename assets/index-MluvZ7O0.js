@@ -76,7 +76,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-image: url("/background.jpg");
+  background-image: url("./background.jpg");
   background-size: cover;
   background-position: center;
 `,lx=se.header`
