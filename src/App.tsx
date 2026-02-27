@@ -9,11 +9,11 @@ import Weathers from "./WeatherProject/Weathers/Weathers"
 
 function App() {
   return (
-    <BrowserRouter>      
+    <BrowserRouter basename="/Weather">      
 
       <Layout>
         <Routes>
-          <Route path={ROUTES.NOT_FOUND} element="Page Not Found" />
+          <Route path={ROUTES.NOT_FOUND} element={<>Page Not Found</>} />
           <Route path={ROUTES.HOME} element={<Home />}/>
           <Route path={ROUTES.WEATHERS} element={<Weathers/>}/>
         </Routes>
