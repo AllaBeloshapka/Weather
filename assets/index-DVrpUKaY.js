@@ -349,7 +349,7 @@ height: 120px;
   align-items: center;
   justify-content: center;
   gap: 50px;
-`;function v4(){return I.jsx(g4,{children:I.jsx(y4,{})})}function b4(){return I.jsx(J2,{children:I.jsx(cx,{children:I.jsxs(O2,{children:[I.jsx(Tc,{path:ur.NOT_FOUND,element:"Page Not Found"}),I.jsx(Tc,{path:ur.HOME,element:I.jsx(p4,{})}),I.jsx(Tc,{path:ur.WEATHERS,element:I.jsx(v4,{})})]})})})}const S4=t4(Oh),E4=n=>wD({reducer:S4,preloadedState:n}),T4=E4(),_4=K_`
+`;function v4(){return I.jsx(g4,{children:I.jsx(y4,{})})}function b4(){return I.jsx(J2,{basename:"/Weather",children:I.jsx(cx,{children:I.jsxs(O2,{children:[I.jsx(Tc,{path:ur.NOT_FOUND,element:I.jsx(I.Fragment,{children:"Page Not Found"})}),I.jsx(Tc,{path:ur.HOME,element:I.jsx(p4,{})}),I.jsx(Tc,{path:ur.WEATHERS,element:I.jsx(v4,{})})]})})})}const S4=t4(Oh),E4=n=>wD({reducer:S4,preloadedState:n}),T4=E4(),_4=K_`
   * {
     box-sizing: border-box;
   }
